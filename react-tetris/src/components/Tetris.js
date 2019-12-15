@@ -66,12 +66,12 @@ const Tetris = () => {
                 <Display gameOver={gameOver} text="Game Over" />
               ) : (
                 <div>
-                  <Display text="score" />
-                  <Display text="rows" />
-                  <Display text="level" />
+                  <Display text="Score" />
+                  <Display text="Rows" />
+                  <Display text="Level" />
                 </div>
               )}
-                <StartButton callback={startGame}/>
+                <StartButton callback={startGame} />
               </aside> 
             </StyledTetris> 
         </StyledTetrisWrapper>
